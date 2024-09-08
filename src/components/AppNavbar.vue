@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <nav class="routes">
-    <RouterLink to="/about"> <li>About</li> </RouterLink>
+    <router-link to="/about"> <li>About</li> </router-link>
     <RouterLink to="/contact"><li>Contact</li></RouterLink>
     <RouterLink to="Book"><li>Order</li> </RouterLink>
   </nav>
@@ -18,6 +18,7 @@ import { RouterLink } from 'vue-router'
   align-items: center;
   gap: 40px;
   padding: 0 4px;
+  font-family: Didot;
 }
 .routes a {
   text-decoration: none;
@@ -29,6 +30,11 @@ import { RouterLink } from 'vue-router'
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   scale: 1.1;
+}
+.routes a:active {
+  background: linear-gradient(to right, #424, #398);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .routes li {
   list-style-type: none;

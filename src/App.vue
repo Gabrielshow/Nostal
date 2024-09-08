@@ -3,6 +3,7 @@
     <AppLogo />
     <AppNavbar />
   </div>
+  <AppHome />
 </template>
 
 <style scoped>
@@ -23,4 +24,5 @@
 <script setup>
 import AppNavbar from '@/components/AppNavbar.vue'
 import AppLogo from '@/components/AppLogo.vue'
+import AppHome from '@/components/AppHome.vue'
 </script>
