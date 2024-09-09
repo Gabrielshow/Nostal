@@ -10,6 +10,7 @@
   overflow: hidden;
 }
 .scroll-text span {
+  text-align: center;
   position: absolute;
   white-space: nowrap;
   animation: scroll 10s linear infinite;

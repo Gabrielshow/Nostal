@@ -22,7 +22,7 @@ import { RouterLink } from 'vue-router'
 }
 .routes a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .routes a:hover {
